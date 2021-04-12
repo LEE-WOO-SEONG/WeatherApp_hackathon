@@ -253,6 +253,7 @@ const clearStyle = () => {
   clearInitStyle();
   $main.style = '';
   localStorage.clear();
+  customStyles = [];
 };
 
 // eventBinding
